@@ -1,13 +1,12 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"c-85"	[$WIN32]
-		"ypos"			"c24"		[$WIN32]
+		"xpos"			"c-125"	[$WIN32]
+		"ypos"			"c5"    [$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -19,18 +18,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"-15"
+		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"enabled"		"0"
+		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -46,7 +45,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"NORTH"
 		"font"					"NotJustGroovy16"
 		"fgcolor_override"				"0 0 0 255"
@@ -70,5 +69,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"255 255 255 100"
-	}					
+	}						
 }
