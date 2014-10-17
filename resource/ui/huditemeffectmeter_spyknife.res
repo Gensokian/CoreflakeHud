@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"c-85"	[$WIN32]
-		"ypos"			"c24"		[$WIN32]
+		"ypos"			"c5"		[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -19,7 +19,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"-15"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"

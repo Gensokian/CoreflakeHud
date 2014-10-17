@@ -104,16 +104,18 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-125"	[$WIN32]
-		"ypos"			"c25"    [$WIN32]
-		"wide"			"100"
-		"tall"			"50"
-		"zpos"			"-5"			// draw in front of ammo
+		"xpos"			"r80"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos"			"r21"	[$WIN32]
+		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
+		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
-		"FGcolor_Override"		"255 255 255 255"
-		"MeterBG"		"255 255 255 100"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 
 	HudFlameRocketCharge

@@ -215,7 +215,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"160"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"-3"
@@ -235,7 +235,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"145"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"-4"
@@ -265,7 +265,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"170"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
@@ -275,7 +275,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
@@ -285,7 +285,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"165"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"
