@@ -64,6 +64,7 @@
 		"font"			"NotJustGroovy36"
 	}
 
+	
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

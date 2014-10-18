@@ -205,7 +205,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"150"
+				"angles_y"		"170"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"7"
@@ -245,7 +245,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"158"
+				"angles_y"		"165"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
@@ -255,7 +255,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"150"
+				"angles_y"		"165"
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"-7"
