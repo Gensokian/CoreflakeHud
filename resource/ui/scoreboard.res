@@ -366,8 +366,7 @@
 		
 		if_mvm
 		{
-			"xpos"			"200"
-			"ypos"			"375"
+			"ypos"			"68"
 		}
 	}
 	"ServerTimeLeft"
@@ -390,8 +389,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
-			"xpos"			"100"
+			"ypos"			"80"
 		}
 	}				
 	"BluePlayerList"
@@ -542,11 +540,6 @@
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-		if_mvm
-
-		{
-			"visible"		"0"
-		}
 	}		
 	"StatsBackground"
 	{
@@ -567,7 +560,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"ClassImage"	
@@ -676,15 +669,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
-
-			if_mvm
-			{
-			"xpos"			"165"
-			"ypos"			"415"
-			"visible"		"1"
-			}
-
-		}	
+	}	
 
 	"LocalPlayerDuelStatsPanel"
 	{
@@ -913,7 +898,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}		
 		"KillsLable"
 		{
@@ -931,11 +916,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"DeathsLable"
 		{
@@ -953,11 +933,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"KillsCount"
 		{
@@ -975,11 +950,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"DeathsCount"
 		{
@@ -997,11 +967,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"AssistsLabel"
 		{
@@ -1019,11 +984,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"DestructionLabel"
 		{
@@ -1041,11 +1001,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}																	
 		"Assists"
 		{
@@ -1063,11 +1018,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Destruction"
 		{
@@ -1085,11 +1035,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"CapturesLabel"
 		{
@@ -1107,11 +1052,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"DefensesLabel"
 		{
@@ -1129,11 +1069,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"DominationLabel"
 		{
@@ -1151,11 +1086,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"RevengeLabel"
 		{
@@ -1173,11 +1103,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Captures"
 		{
@@ -1195,11 +1120,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Defenses"
 		{
@@ -1217,11 +1137,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Domination"
 		{
@@ -1239,11 +1154,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Revenge"
 		{
@@ -1261,11 +1171,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"HealingLabel"
 		{
@@ -1283,11 +1188,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"InvulnLabel"
 		{
@@ -1305,11 +1205,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"TeleportsLabel"
 		{
@@ -1327,11 +1222,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"HeadshotsLabel"
 		{
@@ -1349,11 +1239,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Healing"
 		{
@@ -1371,11 +1256,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Invuln"
 		{
@@ -1393,11 +1273,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Teleports"
 		{
@@ -1415,11 +1290,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"Headshots"
 		{
@@ -1437,11 +1307,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}						
 		"BackstabsLabel"
 		{
@@ -1459,11 +1324,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"Backstabs"
 		{
@@ -1481,11 +1341,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}		
 		"BonusLabel"
 		{
@@ -1503,11 +1358,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"Bonus"
 		{
@@ -1525,11 +1375,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"SupportLabel"
 		{
@@ -1547,11 +1392,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"Support"
 		{
@@ -1569,11 +1409,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"DamageLabel"
 		{
@@ -1591,11 +1426,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 		"Damage"
 		{
@@ -1613,11 +1443,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-			"visible"		"0"
-			}
 		}
 	}
 
