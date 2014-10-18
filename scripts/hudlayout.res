@@ -249,26 +249,17 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
+		"xpos"		"c-156"
+		"ypos"		"c150"
+		"wide"	 	"500"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
-		"enabled" 	"1"
+		"enabled" 	"0"
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
@@ -280,25 +271,15 @@
 		"x_offset" "20"
 		"y_offset" "20"
 	}
-	
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"300"
+		"xpos"		"c150"
+		"ypos"		"c106"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
 	}
 	
 	BuildingStatus_Spy
@@ -322,11 +303,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -416,7 +393,6 @@
 
 	HudDamageIndicator
 	{
-
 	}
 
 	HudCommentary
@@ -470,37 +446,33 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
+		"xpos"	 "c0"	[$WIN32]
 		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
+		"wide"	 "400"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"NotJustGroovy12"
+		"textAlignment"	"east"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"0 0 0 100"		[$WIN32]
+		"LocalBackgroundColor"	"200 200 200 255"	[$WIN32]
 	}
 
 	HudVehicle
@@ -707,8 +679,8 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "c64"
-		"ypos"	 "c-64"
+		"xpos"	 "c25"
+		"ypos"	 "c-90"
 		"wide"	 "64"
 		"tall"	 "128"
 	}
@@ -718,10 +690,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
+		"xpos" "c220" 	[$WIN32]
+		"ypos" "c160"	[$WIN32]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -769,7 +739,7 @@
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
+		"center_x"				"1"	// center text horizontally
 		"center_y"				"-1"	// align text on the bottom
 	}	
 
@@ -781,7 +751,7 @@
 		"xpos"		"r120"
 		"ypos"		"r340"
 		"wide"		"100"
-		"tall"		"200"
+		"tall"		"100"
 		"text_xpos"	"8"
 		"text_ypos"	"8"
 		"text_xgap"	"8"

@@ -2397,6 +2397,25 @@ Scheme
 		}
 
 // These are the fonts i'm using
+		NotJustGroovy6
+		{
+			"1"
+			{
+				"name"		"Not Just Groovy"
+				"tall"		"6"
+				"antialias" "1"
+			}
+		}
+
+		NotJustGroovy8
+		{
+			"1"
+			{
+				"name"		"Not Just Groovy"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
 
 		NotJustGroovy12
 		{
