@@ -127,9 +127,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"surface10"
+		"font"				"NotJustGroovy12"
 		"xpos"				"41"
-		"ypos"				"22"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"280"
 		"tall"				"14"

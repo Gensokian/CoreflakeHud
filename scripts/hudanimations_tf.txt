@@ -759,9 +759,10 @@ event DamagedPlayer
 
 event SpyWarningFlash
 {
-	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
-	Animate	EnemyCountImageBG	BgColor	"TanLight"		Linear 0.21 0.01
-	
+	Animate	EnemyCountImageBG 	BgColor		"Red"				Linear 0.0 1
+	Animate	EnemyCountImageBG 	BgColor		"0 0 0 100"			Linear 0.5 0.5
+
+
 	RunEvent	SpyWarningFlashLoop		0.42
 }
 

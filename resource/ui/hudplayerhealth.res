@@ -8,7 +8,7 @@
 		"xpos"			"c-170"	[$WIN32]
 		"ypos"			"c-60"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"5000"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -296,10 +296,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"115"
-		"xpos_minmode"	"115"
-		"ypos"			"75"
-		"ypos_minmode"	"55"
+		"xpos"			"10"	[$WIN32]
+		"ypos"			"28"	[$WIN32]
+		"zpos"			"5"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
